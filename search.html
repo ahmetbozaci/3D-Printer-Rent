@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="/assets/stylesheet/bootstrap.css"> -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="../../assets/stylesheet/style.css">
     <script src="https://kit.fontawesome.com/89c0957ca7.js" crossorigin="anonymous"></script>
@@ -10,12 +11,13 @@
 </head>
 <body>
  
-<!--NAVİGATİON BAR-->
+<!--NAVIGATION BAR-->
     <header>
-        <nav class="d-flex navigation-bar px-5">
+        <nav class="d-flex navigation-bar px-5 bg">
             <div class="logo">
+                <!-- <img src="/assets/images/printer3d-512.png" alt=""> -->
                 <i class="fab pr-1 fa-amazon"></i>
-                <span>Website name</span>
+                <span>PRiNTER</span>
             </div>
             <ul class="d-flex navigation-items list-unstyled nohover-line">
                 <li class="px-4"><a href="search.html" target="_blank"><i class="fas px-1 fa-search"></i><span class="navigation-link">SCHOOLS</span></a></li>
@@ -32,53 +34,52 @@
             <h3 class="text-center py-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, quia.</h3>
             <form action="" class="d-flex justify-content-center option-box">
                 <div class="mr-1">
-                    <label for="cars" class="d-block mb-0 font-weight-bold">COUNTRY:</label>
-                    <select id="cars" name="cars" class="">
+                    <label for="material" class="d-block mb-0 font-weight-bold">MATERİAL</label>
+                    <select id="material" name="material">
                         <option>&#160;</option>                        
-                        <option value="volvo">Volvo</option>
-                        <option value="saab">Saabdd</option>
-                        <option value="fiat">Fiat</option>
-                        <option value="audi">Audi</option>
+                        <option value="anet"></option>
+                        <option value="creality">Creality</option>
+                        <option value="two trees">Two Trees</option>
+                        <option value="anycubic">Anycubic</option>
                     </select>
                 </div>
                 <div class="mr-1">
-                    <label for="cars" class="d-block mb-0 font-weight-bold">COUNTRY:</label>
-                    <select id="cars" name="cars">
+                    <label for="printer" class="d-block mb-0 font-weight-bold">PRINTER TYPE:</label>
+                    <select id="printer" name="printer">
                         <option>&#160;</option>                        
-                        <option value="volvo">Volvo</option>
-                        <option value="saab">Lorem, ipsum.</option>
-                        <option value="fiat">Fiat</option>
-                        <option value="audi">Audi</option>
+                        <option value="Delta">Delta</option>
+                        <option value="Cartesian">Cartesian</option>
+                        <option value="Polar">Polar</option>
+                        <option value="Robotic Arms">Robotic Arms</option>
                     </select>
                 </div>
                 <div class="mr-1">
-                    <label for="cars" class="d-block mb-0 font-weight-bold">COUNTRY:</label>
-                    <select id="cars" name="cars">
+                    <label for="purpose" class="d-block mb-0 font-weight-bold">PURPOSE:</label>
+                    <select id="purpose" name="purpose">
                         <option>&#160;</option>                        
-                        <option value="volvo">Volvo</option>
-                        <option value="saab">Saabdd</option>
-                        <option value="fiat">Lorem, ipsum dolor.</option>
-                        <option value="audi">Audi</option>
+                        <option value="Hobby">Hobby</option>
+                        <option value="Professional">Professional</option>
+                        <option value="One Time Use">One Time Use</option>
                     </select>
                 </div>
                 <div class="mr-1">
-                    <label for="cars" class="d-block mb-0 font-weight-bold">COUNTRY:</label>
-                    <select id="cars" name="cars">
+                    <label for="size" class="d-block mb-0 font-weight-bold">PRINT SIZE</label>
+                    <select id="size" name="size">
                         <option>&#160;</option>                        
-                        <option value="volvo">Volvo</option>
-                        <option value="saab">Saabdd</option>
-                        <option value="fiat">Fiat</option>
-                        <option value="audi">Audi</option>
+                        <option value="150*150*150">150*150*150</option>
+                        <option value="220*220*240">220*220*240</option>
+                        <option value="300*300*300">300*300*300</option>
+                        <option value="500*500*500">500*500*500</option>
                     </select>
                 </div>
                 <div class="mr-1">
-                    <label for="cars" class="d-block mb-0 font-weight-bold">COUNTRY:</label>
-                    <select id="cars" name="cars">
+                    <label for="budget" class="d-block mb-0 font-weight-bold">BUDGET:</label>
+                    <select id="budget" name="budget">
                         <option>&#160;</option>                        
-                        <option value="volvo">Volvo</option>
-                        <option value="saab">Saabdd</option>
-                        <option value="fiat">Fiat</option>
-                        <option value="audi">Audi</option>
+                        <option value="100$">100$</option>
+                        <option value="200$">200$</option>
+                        <option value="300$">300$</option>
+                        <option value="400$">400$</option>
                     </select>
                 </div>
                 <div class="align-self-end">
