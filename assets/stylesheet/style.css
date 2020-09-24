@@ -140,18 +140,57 @@ table {
   ========================================
 */
 
-
-
-
 /*
   ========================================
   Navigation Bar
   ========================================
 */
 
+.navigation-bar * {
+    color: #feffff;
+    
+}
 
+.navigation-bar {
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem 0;
+    background-color: #d35749;
+    gap:1rem;
+    width: 100%;
+}
+.navigation-link {
+    display: none;
+}
+/* Media queries*/ 
 
+@media screen and (min-width:768px) {
 
+   
+    .navigation-bar {
+        flex-direction: row;
+        gap:0rem;
+        justify-content: space-between;
+      
+    }
+    .navigation-items {
+        margin-right:3rem;
+    }
+}   
+
+@media screen and (min-width:1024px) {
+
+    .navigation-link {
+        display: inline;
+    }
+    .navigation-bar {
+        justify-content: space-between;
+      
+    }
+    .navigation-items {
+        margin: 0 
+    }
+}
 /*
   ========================================
   Main
