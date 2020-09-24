@@ -4,7 +4,9 @@
   General
   ========================================
 */
-
+body * {
+    font-family:"Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;;
+}
 /*
   ========================================
   Navigation Bar
@@ -72,3 +74,5 @@
     height: 400px;
     
 }
+
+
