@@ -7,6 +7,27 @@
 body * {
     font-family:"Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;;
 }
+.bg-color0 {
+    background-color: #d35749;
+}
+.bg-color1 {
+    background-color: #e17f65;
+}
+.text-color1 {
+    color: #e17f65;
+}
+.bg-color2 {
+    background-color: #98a4a5;
+}
+.text-color2 {
+    color: #98a4a5;
+}
+.bg-color3 {
+    background-color: #509bdb;
+}
+.text-color3 {
+    color: #509bdb;
+}
 /*
   ========================================
   Navigation Bar
@@ -22,7 +43,6 @@ body * {
     flex-direction: column;
     align-items: center;
     padding: 1.5rem 0;
-    background-color: #d35749;
     gap:1rem;
     width: 100%;
 }
@@ -37,7 +57,6 @@ body * {
 
 @media screen and (min-width:768px) {
 
-   
     .navigation-bar {
         flex-direction: row;
         gap:0rem;
@@ -69,23 +88,12 @@ body * {
 */
 
 .main {
-    background: url(../../assets/images/img_lights.jpg)  no-repeat;
+    background: url(../../assets/images/main.jpg)  no-repeat;
     background-size: cover ;
-    height: 400px;
+    height: 500px;
     
 }
-.printer-bg-color {
-    background-color: #e17f65;
-}
-.text-color {
-    color: #e17f65;
-}
-.find-bg-color {
-    background-color: #98a4a5;
-}
-.anytime-bg-color {
-    background-color: #509bdb;
-}
+
 /*
   ========================================
   Search
@@ -95,4 +103,9 @@ body * {
 .option-box select{
     height: 2rem;
     
+}
+
+.test {
+    top: -23%;
+    right:calc(48%)
 }
