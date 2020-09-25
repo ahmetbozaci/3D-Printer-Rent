@@ -74,8 +74,18 @@ body * {
     height: 400px;
     
 }
-
-
+.printer-bg-color {
+    background-color: #e17f65;
+}
+.text-color {
+    color: #e17f65;
+}
+.find-bg-color {
+    background-color: #98a4a5;
+}
+.anytime-bg-color {
+    background-color: #509bdb;
+}
 /*
   ========================================
   Search
