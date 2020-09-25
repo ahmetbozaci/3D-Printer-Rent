@@ -1,8 +1,8 @@
-# NewsWeek Clone
+# Capstone
 
-> In this project I created NewsWeek page with Bootstrap framework.
+> 
 
-![screenshot](assets/images/screenshot.png)
+![screenshot]()
 
 ## Built With
 
@@ -12,11 +12,10 @@
 
 ## Live Demo
 
-[Live Demo Link](https://ahmetbozaci.github.io/NewsWeek-Clone/)
+[Live Demo Link]()
 
 ## Project Requirements
 
-- You can find the original project specification at [The Odin Project](https://www.theodinproject.com/courses/html5-and-css3/lessons/using-bootstrap).
 
 ## Author
 
