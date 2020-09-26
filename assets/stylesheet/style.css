@@ -7,7 +7,6 @@
 body * {
     font-family:"Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;;
 }
-
 .bg-color0 {
     background-color: #d35749;
 }
@@ -95,6 +94,47 @@ body * {
     
 }
 
+
+/*
+  ========================================
+  FOOTER
+  ========================================
+*/
+
+.footer{
+    background-color: #000;
+}
+.footer-bottom ul {
+    margin: 0 
+}
+
+.footer-bottom li {
+    padding: 0 0.5rem
+}
+.footer-bottom * {
+    color: gray
+}
+.footer-bottom {
+    color: white;
+    flex-direction: column;
+    gap:0.3rem;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333232;
+    padding: 0.5rem;
+}
+
+/* Media queries*/ 
+
+@media screen and (min-width:1024px) {
+
+    .footer-bottom {
+        flex-direction: row;
+        padding: 1rem 2rem;
+
+    }
+  
+}
 /*
   ========================================
   printers.html
