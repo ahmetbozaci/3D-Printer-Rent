@@ -87,13 +87,15 @@ body * {
 */
 
 .main {
-    background: url(../../assets/images/main.jpg)  no-repeat;
-    background-size: cover ;
     height: 500px;
-    padding-top: 7.5rem;
+    background: url(../../assets/images/main.jpg)  no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 1.5rem;
+    filter: brightness(50%);
     
 }
-
 
 /*
   ========================================
@@ -124,6 +126,11 @@ body * {
     padding: 0.5rem;
 }
 
+.footer-logo {
+    margin: -1.64em -1.16em;
+    background-color: #000;
+}
+    
 /* Media queries*/ 
 
 @media screen and (min-width:1024px) {
@@ -135,6 +142,16 @@ body * {
     }
   
 }
+
+@media screen and (min-width:1200px) {
+
+    .footer-logo {
+       margin: -1.64em 1.84em
+
+    }
+  
+}
+
 /*
   ========================================
   printers.html
