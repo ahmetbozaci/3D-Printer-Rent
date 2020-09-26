@@ -49,7 +49,6 @@ body * {
 }
 .navigation-link {
     display: none;
-    text-decoration: none;
 }
 .nohover-line a {
     text-decoration: none;
@@ -107,8 +106,4 @@ body * {
     
 }
 
-/* .test {
-    top: -23%;
-    right:calc(48%)
-} */
 
