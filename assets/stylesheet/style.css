@@ -128,8 +128,11 @@ body * {
 
 .footer-logo {
     margin: -1.64em -1.16em;
-    background-color: #000;
+    
 }
+.fa-cubes {
+    background-color: #000;
+    }
     
 /* Media queries*/ 
 
