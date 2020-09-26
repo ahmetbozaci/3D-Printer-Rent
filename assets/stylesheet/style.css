@@ -141,9 +141,10 @@ body * {
   ========================================
 */
 
+/* Main */
+
 .option-boxes select, .clear-filter, .search-btn {
     height: 1.9rem;
-    
     
 }
 
@@ -153,8 +154,7 @@ body * {
     gap:1.5rem
 }
 
-
-
+/* Media queries */
 @media screen and (min-width:1024px) {
 
     .option-boxes{
@@ -190,3 +190,12 @@ body * {
     top: 0px;
     left: 4px;
 }
+
+/* Printers */
+.search-text {
+    text-align: center;
+    margin: 5rem;
+    color: #646468;
+}
+
+  
