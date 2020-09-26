@@ -141,9 +141,52 @@ body * {
   ========================================
 */
 
-.option-box select{
-    height: 2rem;
+.option-boxes select, .clear-filter, .search-btn {
+    height: 1.9rem;
+    
     
 }
 
+.option-boxes {
+    flex-direction: column;
+    align-items: center;
+    gap:1.5rem
+}
 
+
+
+@media screen and (min-width:1024px) {
+
+    .option-boxes{
+        flex-direction: row;
+        justify-content: center;
+        gap: 0;
+
+    }
+  
+
+    .buttons {
+        align-self: flex-end;
+       
+    }
+}
+.buttons *{
+    color:#feffff;
+    border: 0;
+    border-radius: 0.2rem;
+
+}
+.search-btn {
+    border-radius: 0.2rem;
+    background-color: #457EB4;
+}
+
+.clear-filter {
+    text-indent:1rem;
+    background-color: #E5AB5A;
+}
+/* clear icon*/
+.fa-trash-alt {
+    top: 0px;
+    left: 4px;
+}
