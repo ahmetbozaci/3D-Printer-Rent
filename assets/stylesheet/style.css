@@ -43,7 +43,7 @@ body * {
 .navigation-bar {
     flex-direction: column;
     align-items: center;
-    padding: 1.5rem 0;
+    padding: 1rem 0;
     gap:1rem;
     width: 100%;
 }
@@ -51,7 +51,7 @@ body * {
     display: none;
     text-decoration: none;
 }
-.nohover-line li a {
+.nohover-line a {
     text-decoration: none;
 }
 /* Media queries*/ 
