@@ -31,20 +31,19 @@
 <!--MAİN-->
     <main>
         <section class="bg-light mt-5 py-5">
-            <h3 class="text-center py-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, quia.</h3>
-            <form action="" class="d-flex justify-content-center option-box">
+            <h1 class="text-center lead py-3 text-muted font-weight-bold">Filter by material,type,purpose,print size and budget:</h1>
+            <form action="" class="d-flex option-boxes">
                 <div class="mr-1">
-                    <label for="material" class="d-block mb-0 font-weight-bold">MATERİAL</label>
+                    <label for="material" class="d-block mb-0 font-weight-bold">MATERIAL:</label>
                     <select id="material" name="material">
                         <option>&#160;</option>                        
-                        <option value="anet"></option>
-                        <option value="creality">Creality</option>
-                        <option value="two trees">Two Trees</option>
-                        <option value="anycubic">Anycubic</option>
+                        <option value="creality">PLA Filamet</option>
+                        <option value="two trees">ABS Filamet</option>
+                        <option value="anycubic">PETG Filamet</option>
                     </select>
                 </div>
                 <div class="mr-1">
-                    <label for="printer" class="d-block mb-0 font-weight-bold">PRINTER TYPE:</label>
+                    <label for="printer" class="d-block mb-0 font-weight-bold">TYPE:</label>
                     <select id="printer" name="printer">
                         <option>&#160;</option>                        
                         <option value="Delta">Delta</option>
@@ -63,7 +62,7 @@
                     </select>
                 </div>
                 <div class="mr-1">
-                    <label for="size" class="d-block mb-0 font-weight-bold">PRINT SIZE</label>
+                    <label for="size" class="d-block mb-0 font-weight-bold">PRINT SIZE:</label>
                     <select id="size" name="size">
                         <option>&#160;</option>                        
                         <option value="150*150*150">150*150*150</option>
@@ -76,15 +75,18 @@
                     <label for="budget" class="d-block mb-0 font-weight-bold">BUDGET:</label>
                     <select id="budget" name="budget">
                         <option>&#160;</option>                        
-                        <option value="100$">100$</option>
-                        <option value="200$">200$</option>
-                        <option value="300$">300$</option>
-                        <option value="400$">400$</option>
+                        <option value="100$">100$-150$</option>
+                        <option value="200$">150$-200$</option>
+                        <option value="300$">250$-300$</option>
+                        <option value="400$">350$-400$</option>
                     </select>
                 </div>
-                <div class="align-self-end">
-                    <input type="submit" value="Search">
-                    <input type="reset" value="clear filter">
+                <div class="buttons">
+                    <input type="submit" value="Search" class="search-btn">
+                    <div class="position-relative d-inline">
+                        <i class="fas fa-trash-alt position-absolute"></i>
+                        <input type="reset" class="clear-filter" value="clear filter">
+                    </div>
                 </div>
             </form>
         </section>
