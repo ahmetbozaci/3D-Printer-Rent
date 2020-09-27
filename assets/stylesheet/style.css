@@ -105,7 +105,7 @@ body * {
   background-position: center;
   background-size: cover;
   height: 480px;
-  filter: brightness(50%);
+  filter: brightness(40%);
 }
 
 .main-text {
@@ -118,15 +118,15 @@ body * {
   padding: 2rem;
 }
 
+/* Media queries */
 @media screen and (min-width: 768px) {
-    .main-text {
-       
-        width: 60%;
-        left: 23%;
-        padding: 0;
-       
-      }
+  .main-text {
+    width: 60%;
+    left: 23%;
+    padding: 0;
   }
+}
+
 /*
   ========================================
   FOOTER
@@ -202,19 +202,6 @@ body * {
   gap: 1.5rem;
 }
 
-/* Media queries */
-@media screen and (min-width: 1024px) {
-  .option-boxes {
-    flex-direction: row;
-    justify-content: center;
-    gap: 0;
-  }
-
-  .buttons {
-    align-self: flex-end;
-  }
-}
-
 .buttons * {
   color: #feffff;
   border: 0;
@@ -244,4 +231,15 @@ body * {
   color: #646468;
 }
 
+/* Media queries */
+@media screen and (min-width: 1024px) {
+  .option-boxes {
+    flex-direction: row;
+    justify-content: center;
+    gap: 0;
+  }
 
+  .buttons {
+    align-self: flex-end;
+  }
+}
