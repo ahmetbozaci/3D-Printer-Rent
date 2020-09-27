@@ -10,6 +10,10 @@ body * {
 .bg-color0 {
     background-color: #d35749;
 }
+.bg-color {
+    background-color: rgba(186, 192, 196 ,0.8);
+}
+
 .bg-color1 {
     background-color: #e17f65;
 }
@@ -86,17 +90,24 @@ body * {
   ========================================
 */
 
-.main {
-    height: 500px;
+.main-bg-img {
     background: url(../../assets/images/main.jpg)  no-repeat;
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 1.5rem;
-    filter: brightness(50%);
-    
+    height: 450px;
+    z-index: -1;
+    opacity: 0.4;
 }
-
+    
+.main-text {
+   top:31%;
+   right: 23%;
+   left: 23%;
+   opacity: 5;
+}
+.test {
+    padding: 2rem;
+}
 /*
   ========================================
   FOOTER
