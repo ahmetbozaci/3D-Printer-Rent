@@ -104,20 +104,29 @@ body * {
   background: url(../../assets/images/main.jpg)  no-repeat;
   background-position: center;
   background-size: cover;
-  height: 450px;
-  z-index: -1;
+  height: 480px;
+  filter: brightness(50%);
 }
 
 .main-text {
   top: 31%;
-  right: 23%;
-  left: 23%;
+  padding: 0 1.5rem;
+  width: 100%;
 }
 
-.test {
+.main-btn {
   padding: 2rem;
 }
 
+@media screen and (min-width: 768px) {
+    .main-text {
+       
+        width: 60%;
+        left: 23%;
+        padding: 0;
+       
+      }
+  }
 /*
   ========================================
   FOOTER
