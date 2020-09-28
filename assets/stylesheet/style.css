@@ -286,16 +286,14 @@ body * {
 }
 
 .form-spec {
-  margin: 0 auto;
+  width: 58%;
 }
 
 .form-spec input {
-  width: 70%;
-}
-
-.form-spec label {
   width: 100%;
 }
+
+
 
 .spec span {
   color: #4996d5;
@@ -318,6 +316,3 @@ body * {
   color: #80a711;
 }
 
-.test {
-  vertical-align: middle;
-}
