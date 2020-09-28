@@ -40,6 +40,10 @@ body * {
   color: #509bdb;
 }
 
+.bg-color4 {
+  background-color: #DEE2E3;
+
+}
 /*
   ========================================
   Navigation Bar
@@ -251,7 +255,6 @@ body * {
 */
 
 .input-bg {
-  background-color: #DEE2E3;
   border-right: 0;
   border-left: 0;
   border-top:0;
@@ -261,10 +264,60 @@ body * {
 
 .btn-sign-in { 
  color: #80a711;
- 
   
 }
 
-form input {
+.form-spec input {
   width: 70%;
+}
+
+.spec  span {
+  color: #4996D5;
+  text-transform: uppercase;
+}
+
+.btn-apply {
+  background-color: #4996D5;
+  text-indent: 15px;;
+}
+
+.fa-envelope {
+  top: 10px;
+  right: 70px;
+  
+}
+
+.info span {
+  color: #000;
+  
+}
+
+.info i {
+  color: #4996D5;;
+  
+}
+
+.color-a8 {
+  color: #80a711;
+}
+
+.test {
+ width: 60%;
+}
+
+.click-more {
+  letter-spacing: 0.3rem;
+}
+
+.map-input {
+  top: 1.3rem;
+  left: 0.8rem;
+}
+
+.map-img {
+  filter: brightness(70%);
+}
+
+.test2 {
+  width: 60%;
 }
