@@ -13,7 +13,7 @@
 ## Live Demo
 
 [Live Demo Link](https://ahmetbozaci.github.io/3D-PRINTER-RENT/)
-[Video Presentation]()
+[Video Presentation](https://www.loom.com/share/001ece445b254a46a5a6611e9a9d9b35)
 
 ## Project Requirements
 
