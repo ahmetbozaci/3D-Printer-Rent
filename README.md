@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://ahmetbozaci.github.io/Capstone/)
+[Live Demo Link](https://ahmetbozaci.github.io/3D-PRINTER-RENT/)
 [Video Presentation]()
 
 ## Project Requirements
