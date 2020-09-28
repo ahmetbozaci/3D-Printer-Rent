@@ -51,7 +51,7 @@
             </div>
             <div class="position-relative text-white mb-2 mt-4 text-right">
                 <i class="far fa-envelope position-absolute"></i>
-                <button class="btn btn-apply text-white">APPLY</button>
+                <button class="btn btn-apply text-white" type="button">APPLY</button>
             </div>
             <div class="info text-right">
                 <i class="fas fa-phone-alt"></i>            
@@ -86,7 +86,7 @@
            
             <div class="position-absolute map-input">
                 <input type="text" placeholder="FROM.." class="py-1 w-25">
-                <button class="btn">GET DIRECTIONS</button>
+                <button class="btn" type="button">GET DIRECTIONS</button>
             </div>
         </div>
         
@@ -94,31 +94,117 @@
 
     <section class="container font-weight-bold my-5 test2">
         <form class="form-spec">
-            <label for="" class="d-block mb-0 " >FIRST NAME:</label>
-            <input class="p-2 input-bg mb-2 bg-color4" placeholder="First Name" type="text">
+            <label for="first-name" class="d-block mb-0 ">FIRST NAME:</label>
+            <input id="first-name" class="p-2 input-bg mb-2 bg-color4" placeholder="First Name" type="text">
 
-            <label for="" class="d-block mb-0" >LAST NAME:</label>
-            <input class="p-2 input-bg mb-2 bg-color4" placeholder="Last Name" type="text">
+            <label for="last-name" class="d-block mb-0" >LAST NAME:</label>
+            <input id="last-name" class="p-2 input-bg mb-2 bg-color4" placeholder="Last Name" type="text">
 
-            <label for="" class="d-block mb-0" >EMAIL:</label>
-            <input class="p-2 input-bg mb-2 bg-color4" placeholder="email" type="email">
+            <label for="mail" class="d-block mb-0" >EMAIL:</label>
+            <input id="mail" class="p-2 input-bg mb-2 bg-color4" placeholder="email" type="email">
 
-            <label for="" class="d-block mb-0" >USERNAME:</label>
-            <input class="p-2 input-bg mb-2 bg-color4" placeholder="username" type="text">
+            <label for="username1" class="d-block mb-0" >USERNAME:</label>
+            <input id="username1" class="p-2 input-bg mb-2 bg-color4" placeholder="username" type="text">
 
-            <label for="" class="d-block mb-0" >USERNAME:</label>
-            <input class="p-2 input-bg mb-2 bg-color4" placeholder="username" type="text">
+            <label for="username2" class="d-block mb-0" >USERNAME:</label>
+            <input id="username2" class="p-2 input-bg mb-2 bg-color4" placeholder="username" type="text">
 
-            <label for="" class="d-block mb-0" >PASSWORD:</label>
-            <input class="p-2 input-bg mb-2 bg-color4" placeholder="Enter Password" type="password">
+            <label for="password" class="d-block mb-0" >PASSWORD:</label>
+            <input id="password" class="p-2 input-bg mb-2 bg-color4" placeholder="Enter Password" type="password">
 
-            <label for="" class="d-block mb-0" >CONFIRM PASSWORD:</label>
-            <input class="p-2 input-bg mb-2 bg-color4 d-block" placeholder="Confirm Password" type="password">
+            <label for="confirm-password" class="d-block mb-0" >CONFIRM PASSWORD:</label>
+            <input id="confirm-password" class="p-2 input-bg mb-2 bg-color4 d-block" placeholder="Confirm Password" type="password">
         
-            <button class="btn text-white bg-danger">Sıgn Up</button>
-            <button class="btn btn-sign-in bg-white">Sıgn In</button>
+            <button class="btn text-white bg-danger" type="button">Sıgn Up</button>
+            <button class="btn btn-sign-in bg-white" type="button">Sıgn In</button>
         </form>
     </section>
+
+      <!--FOOTER-->
+      <footer class="footer">
+
+        <div class="container text-white font-weight-bold">
+            <div class="row pt-5 text-nowrap">
+                <div class="col-12 pb-5">
+                    <nav class="navbar navbar-expand-lg border-top border-bottom justify-content-between position-relative">
+                        <ul class="navbar-nav">
+                            <li class="nav-item pr-3 pr-xl-4">
+                                <a class="nav-link text-white " href="index.html">HOME</a>
+                            </li>
+                            <li class="nav-item pr-3 pr-xl-4">
+                                <a class="nav-link text-white " href="printers.html">SEARCH</a>
+                            </li>
+                            <li class="nav-item pr-3 pr-xl-4">
+                                <a class="nav-link text-white " href="#">ABOUT US</a>
+                            </li>
+                            <li class="nav-item pr-3 pr-xl-4">
+                                <a class="nav-link text-white " href="#">ADVERTISE</a>
+                            </li>
+                            <li class="footer-logo d-none d-lg-block">
+                                <i class="fas fa-cubes fa-3x p-4 rounded-circle border position-absolute"></i>
+                            </li>
+        
+                        </ul>
+                    
+                        <ul class="navbar-nav text-left">
+                            <li class="nav-item pr-3 pr-xl-4">
+                                <a class="nav-link text-white " href="#">FACEBOOK</a>
+                            </li>
+                            <li class="nav-item pr-3 pr-xl-4">
+                                <a class="nav-link text-white " href="#">TWITTER</a>
+                            </li>
+                            <li class="nav-item pr-3 pr-xl-4">
+                                <a class="nav-link text-white " href="#">BLOG</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white " href="#">GOOGLE+</a>
+                            </li>
+            
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-lg text-center">
+                    <h5 class="font-weight-bold">SUBSCRIBE</h5>
+                    
+                    <div class="input-group bg-dark">
+                        <input type="text" class="form-control" placeholder="you@example.com">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-secondary text-white" type="button">send</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3 text-center py-4 py-lg-0 mx-lg-5">
+                    <h5 class="font-weight-bold">CONTACT</h5>
+                    <p class="mb-0">Have a question or submission?</p>
+                    <p class="mb-0 text-danger">info@3dprinter.com</p>
+                </div>
+                <div class="col-12 col-lg text-center">
+                    <h5 class=" font-weight-bold">ABOUT</h5>
+                    <p>This website is online platform to rent a printer for projects.
+                        <a href="#">
+                            <span class="text-danger">Learn more...</span>
+                        </a>
+                    </p>
+                </div>
+            </div>
+        
+        </div>
+        <div class="d-flex footer-bottom">
+            <div>
+                <ul class="d-flex list-unstyled">
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="https://instagram.com/futureismaker"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://twitter.com/ahmtbozaci"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                    <li><a href="#"><i class="fab fa-tumblr"></i></a></li>
+                </ul>
+            </div>
+            <small class="text-center">&copy; 3DPRİNTER 2020. ALL RIGHTS RESERVED.</small>
+        </div>
+    </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
