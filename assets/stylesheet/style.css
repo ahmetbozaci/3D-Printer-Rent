@@ -243,3 +243,28 @@ body * {
     align-self: flex-end;
   }
 }
+
+/*
+  ========================================
+  about.html
+  ========================================
+*/
+
+.input-bg {
+  background-color: #DEE2E3;
+  border-right: 0;
+  border-left: 0;
+  border-top:0;
+  border-bottom: 1px dashed #000;
+  text-indent: 0.8rem;
+}
+
+.btn-sign-in { 
+ color: #80a711;
+ 
+  
+}
+
+form input {
+  width: 70%;
+}
