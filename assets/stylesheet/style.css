@@ -254,50 +254,7 @@ body * {
   ========================================
 */
 
-.input-bg {
-  border-right: 0;
-  border-left: 0;
-  border-top: 0;
-  border-bottom: 1px dashed #000;
-  text-indent: 0.8rem;
-}
-
-.btn-sign-in {
-  color: #80a711;
-}
-
-.form-spec input {
-  width: 70%;
-}
-
-.spec span {
-  color: #4996d5;
-  text-transform: uppercase;
-}
-
-.btn-apply {
-  background-color: #4996d5;
-  text-indent: 15px;
-}
-
-.fa-envelope {
-  top: 10px;
-  right: 70px;
-}
-
-.info span {
-  color: #000;
-}
-
-.info i {
-  color: #4996d5;
-}
-
-.color-a8 {
-  color: #80a711;
-}
-
-.test {
+.first-section {
   width: 60%;
 }
 
@@ -314,6 +271,53 @@ body * {
   filter: brightness(70%);
 }
 
-.test2 {
-  width: 60%;
+/* Form */
+
+.input-bg {
+  border-right: 0;
+  border-left: 0;
+  border-top: 0;
+  border-bottom: 1px dashed #000;
+  text-indent: 0.8rem;
+}
+
+.btn-sign-in {
+  color: #80a711;
+}
+
+.form-spec {
+  margin: 0 auto;
+}
+
+.form-spec input {
+  width: 70%;
+}
+
+.form-spec label {
+  width: 100%;
+}
+
+.spec span {
+  color: #4996d5;
+  text-transform: uppercase;
+}
+
+.btn-apply {
+  background-color: #4996d5;
+}
+
+.info span {
+  color: #000;
+}
+
+.info i {
+  color: #4996d5;
+}
+
+.color-a8 {
+  color: #80a711;
+}
+
+.test {
+  vertical-align: middle;
 }
