@@ -31,9 +31,15 @@ Each of these pages should have versions for 3 different screen sizes:
 
 👤 **Ahmet Bozacı**
 
-- Github: [@ahmetbozaci ](https://github.com/ahmetbozaci)
-- Twitter: [@ahmtbozaci](https://twitter.com/ahmtbozaci)
-- Linkedin: [linkedin](https://www.linkedin.com/in/ahmetbozaci/)
+- Github: [ahmetbozaci ](https://github.com/ahmetbozaci)
+- Twitter: [ahmtbozaci](https://twitter.com/ahmtbozaci)
+- Linkedin: [ahmetbozaci](https://www.linkedin.com/in/ahmetbozaci/)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the  [issue page](../../issues).
 
 
 ## Show your support
