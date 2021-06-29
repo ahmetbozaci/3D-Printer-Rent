@@ -1,6 +1,7 @@
 # 3D PRINTING RENT
 
-> I create this website with using this [design](https://www.behance.net/gallery/25563385/PatashuleKE)
+### I create this website with using this [design](https://www.behance.net/gallery/25563385/PatashuleKE)
+### This website for 3d printer rent. Users can rent 3d printers from their place.
 
 ![screenshot](assets/images/screenshot.png)
 ![screenshot](assets/images/screenshot-2.png)
