@@ -3,7 +3,7 @@
 > I create this website with using this [design](https://www.behance.net/gallery/25563385/PatashuleKE)
 
 ![screenshot](assets/images/screenshot.png)
-
+![screenshot](assets/images/screenshot-2.png)
 ## Built With
 
 - HTML
